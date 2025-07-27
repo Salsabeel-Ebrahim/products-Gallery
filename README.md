@@ -1,70 +1,63 @@
-#  Product Gallery Platform
+# 🛍️ Product Gallery Platform
 
 ## 🎯 Overview
-Products Gallery is a responsive e-commerce web application built using React and powered by the FakeStore API. It allows users to:
+**Products Gallery** is a fully responsive e-commerce web app built with **React** and powered by the **FakeStore API**.  
+Users can browse, filter, sort, and interact with products in a sleek and modern UI — with Dark Mode and a functional shopping cart.
 
-🔍 Browse a variety of products
+👉 [Live Demo](https://products-gallery-k94v.vercel.app/)
 
-🧠 Search products by name (case-insensitive)
-
-🔃 Sort by price (Low → High / High → Low) and name (A–Z)
-
-🌓 Toggle between Light and Dark Mode
-
+---
 
 ## ✨ Features
-### 🖼️ Product Display
 
-* Responsive, grid-based product layout with images, names, and prices
-* Dedicated **Product Details** page
+### 🖼️ Product Display
+- Grid-based layout with product cards
+- Detailed product view with full description, image, and price
+
+### 🔍 Filtering & Sorting
+- Search products by name (case-insensitive)
+- Sort by price (Low → High / High → Low) and name (A–Z)
 
 ### 🛒 Shopping Cart
+- Add/remove products
+- Quantity management (optional if implemented)
+- Cart overview with price summary
 
-* Add and remove products from the cart
-* Update product quantity
-* View cart items
+### 🌓 Theme Toggle
+- Light/Dark mode switch with persistent preference (via localStorage)
 
-### 🧭 Navigation
-
-* Smooth client-side routing using **React Router**
-
+### 🧭 Navigation & Routing
+- Client-side routing using React Router
 
 ### 📡 API Integration
-
-* **Axios** for communicating with RESTful APIs
-* Modular and reusable HTTP request logic
-* **TanStack Query** (React Query) for data fetching, caching, and revalidation
+- RESTful data via Axios and FakeStore API
+- Optimized fetching & caching with TanStack Query (React Query)
 
 ### 🎨 UI & UX
-
-* Fully responsive design built with **Tailwind CSS**
-* Clean, modern, and accessible interface
-* Animated elements using **Lottie** for a polished user experience
-* Toast notifications with **React Hot Toast**
+- Styled with Tailwind CSS
+- Lottie animations for feedback
+- Toast notifications via React Hot Toast
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Technology      | Purpose                       |
-| --------------- | ----------------------------- |
-| React           | Front-end UI development      |
-| Tailwind CSS    | Styling and responsive design |
-| Vite            | Fast development & build tool |
-| React Router    | Client-side routing           |
-| Axios           | HTTP requests                 |
-| TanStack Query  | Data fetching and caching     |
-| Lottie          | Rich animations               |
-| React Hot Toast | User feedback via toasts      |
+| Tech            | Role                              |
+|-----------------|-----------------------------------|
+| React           | UI Library                        |
+| Tailwind CSS    | Styling & Layout                  |
+| Vite            | Build Tool                        |
+| React Router    | Routing                           |
+| Axios           | API Calls                         |
+| TanStack Query  | Data fetching & caching           |
+| Lottie          | Animations                        |
+| React Hot Toast | Notifications                     |
 
+---
 
+## 👩‍💻 Author
 
+Built with ❤️ by **Salsabeel**
 
+> Feel free to fork, contribute, or provide feedback!
 
-## 🧑 Author
-
-Developed with ❤️ by **Salsabeel**
-
-> Feel free to fork, clone, or contribute to improve the platform!
-
-Live Demo: https://products-gallery-k94v.vercel.app/
