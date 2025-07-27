@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { CartContext } from '../../Context/Cart.context'
-import Loading from '../../components/Loading/Loading'
+import Loading from '../../Components/Loading/Loading'
 import { Link } from 'react-router-dom';
  import useOnline from '../../Hooks/useOnline';
 import CartItem from './../../Components/CartItem';

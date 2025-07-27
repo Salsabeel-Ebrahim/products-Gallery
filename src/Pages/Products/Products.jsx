@@ -3,7 +3,7 @@ import { useQuery } from '@tanstack/react-query'
 import ProductCard from '../../Components/ProductCard/ProductCard'
 import Search from '../../Components/Search/Search'
 import { useState } from 'react'
-import Loading from '../../components/Loading/Loading'
+import Loading from '../../Components/Loading/Loading'
 
 export default function Products() {
     const [searchQuery, setSearchQuery] = useState("");

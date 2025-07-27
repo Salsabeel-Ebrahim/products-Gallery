@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { useContext } from 'react'
 import { CartContext } from '../../Context/Cart.context'
-import Loading from '../../components/Loading/Loading'
+import Loading from '../../Components/Loading/Loading'
 
 export default function ProductDetails() {
     let {id} = useParams()
