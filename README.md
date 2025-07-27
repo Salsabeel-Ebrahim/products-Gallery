@@ -1,12 +1,70 @@
-# React + Vite
+#  Product Gallery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Overview
+Products Gallery is a responsive e-commerce web application built using React and powered by the FakeStore API. It allows users to:
 
-Currently, two official plugins are available:
+🔍 Browse a variety of products
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧠 Search products by name (case-insensitive)
 
-## Expanding the ESLint configuration
+🔃 Sort by price (Low → High / High → Low) and name (A–Z)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌓 Toggle between Light and Dark Mode
+
+
+## ✨ Features
+### 🖼️ Product Display
+
+* Responsive, grid-based product layout with images, names, and prices
+* Dedicated **Product Details** page
+
+### 🛒 Shopping Cart
+
+* Add and remove products from the cart
+* Update product quantity
+* View cart items
+
+### 🧭 Navigation
+
+* Smooth client-side routing using **React Router**
+
+
+### 📡 API Integration
+
+* **Axios** for communicating with RESTful APIs
+* Modular and reusable HTTP request logic
+* **TanStack Query** (React Query) for data fetching, caching, and revalidation
+
+### 🎨 UI & UX
+
+* Fully responsive design built with **Tailwind CSS**
+* Clean, modern, and accessible interface
+* Animated elements using **Lottie** for a polished user experience
+* Toast notifications with **React Hot Toast**
+
+---
+
+## ⚙️ Tech Stack
+
+| Technology      | Purpose                       |
+| --------------- | ----------------------------- |
+| React           | Front-end UI development      |
+| Tailwind CSS    | Styling and responsive design |
+| Vite            | Fast development & build tool |
+| React Router    | Client-side routing           |
+| Axios           | HTTP requests                 |
+| TanStack Query  | Data fetching and caching     |
+| Lottie          | Rich animations               |
+| React Hot Toast | User feedback via toasts      |
+
+
+
+
+
+## 🧑 Author
+
+Developed with ❤️ by **Salsabeel**
+
+> Feel free to fork, clone, or contribute to improve the platform!
+
+Live Demo: https://products-gallery-k94v.vercel.app/
