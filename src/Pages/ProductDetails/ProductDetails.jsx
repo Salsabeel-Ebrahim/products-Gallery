@@ -1,9 +1,10 @@
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
-import Loading from '../../../../freshCart/src/components/Loading/Loading'
+
 import { useQuery } from '@tanstack/react-query'
 import { useContext } from 'react'
 import { CartContext } from '../../Context/Cart.context'
+import Loading from '../../components/Loading/Loading'
 
 export default function ProductDetails() {
     let {id} = useParams()

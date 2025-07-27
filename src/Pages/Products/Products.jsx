@@ -1,9 +1,9 @@
 import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 import ProductCard from '../../Components/ProductCard/ProductCard'
-import Loading from '../../../../freshCart/src/components/Loading/Loading'
 import Search from '../../Components/Search/Search'
 import { useState } from 'react'
+import Loading from '../../components/Loading/Loading'
 
 export default function Products() {
     const [searchQuery, setSearchQuery] = useState("");
